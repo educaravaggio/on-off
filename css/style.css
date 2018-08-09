@@ -1,0 +1,8 @@
+.container {
+  height: 400px;
+  width: 740px;
+  background: url(http://www.applegazette.com/wp-content/uploads/2017/08/customize-time-machine-hero-740x400.jpg);
+  background-size: cover;
+  margin: 100px auto;
+  opacity: 0.6;
+}
