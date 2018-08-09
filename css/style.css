@@ -39,7 +39,7 @@ body {
   height: 100px;
   position: absolute;
   top: 200px;
-  left: 201px;
+  left: 200px;
   border-radius: 20px;
   color: #fff;
   text-shadow: 1px 1px 5px rgb(138, 135, 135);
@@ -47,4 +47,25 @@ body {
   font-weight: 900;
   text-align: center;
   line-height: 1.4;
+}
+
+input[type=checkbox] {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+label {
+	background: rgba(253, 253, 176, 0.151);
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 201px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+input[type=checkbox]:checked ~ .to-be-changed {
+	transform: translate(185px);
 }
